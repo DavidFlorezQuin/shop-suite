@@ -168,3 +168,4 @@ C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\Api.pdb
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\Api.genruntimeconfig.cache
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\ref\Api.dll
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\Api.sourcelink.json

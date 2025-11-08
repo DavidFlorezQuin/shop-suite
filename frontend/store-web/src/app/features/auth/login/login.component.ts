@@ -31,18 +31,30 @@ export class LoginComponent {
     private router: Router,
     private snack: MatSnackBar
   ) {}
-
   onSubmit(form: NgForm) {
     if (form.invalid) return;
-
+  
     this.auth.login(form.value).subscribe({
-      next: () => {
-        this.snack.open('Bienvenido 👋', 'OK', { duration: 2000 });
-        this.router.navigate(['/products']);
+      next: (response) => {
+        if (response && response.accessToken) {
+          localStorage.setItem('token', response.accessToken);
+          console.log('Token guardado:', response.accessToken);
+  
+          this.snack.open('Bienvenido 👋', 'OK', { duration: 2000 });
+  
+          this.router.navigate(['/products']);
+        } else {
+          this.snack.open('Error al iniciar sesión: no se recibió token', 'Cerrar', { duration: 3000 });
+        }
       },
-      error: () => {
+      error: (err) => {
+        console.error('Error al iniciar sesión:', err);
         this.snack.open('Credenciales incorrectas', 'Cerrar', { duration: 2000 });
       }
     });
   }
+  
+
+
+  
 }
