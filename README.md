@@ -25,6 +25,12 @@ Repositorio para la prueba de Indigo sobre un sistema que me permita registrar p
 ### Lista de ventas
 ---
 <img width="1895" height="951" alt="image" src="https://github.com/user-attachments/assets/f9c52050-c90e-44dd-a735-8ab304a07a55" />
+
 ### Modulo de ventas 
 ---
 <img width="1903" height="882" alt="image" src="https://github.com/user-attachments/assets/76033695-1a8d-4452-934b-e8513025278e" />
+
+## Guías de Instalación 
+[Backend]((https://github.com/DavidFlorezQuin/shop-suite/tree/main/backend))
+[Frontend]((https://github.com/DavidFlorezQuin/shop-suite/tree/main/frontend/store-web))
+
