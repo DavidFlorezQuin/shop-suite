@@ -1,0 +1,20 @@
+<div class="login-container">
+    <mat-card>
+      <h2>Iniciar Sesión</h2>
+  
+      <form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Usuario</mat-label>
+          <input matInput name="username" ngModel required />
+        </mat-form-field>
+  
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Contraseña</mat-label>
+          <input matInput type="password" name="passwordHash" ngModel required />
+        </mat-form-field>
+  
+        <button mat-raised-button color="primary" type="submit">Entrar</button>
+      </form>
+    </mat-card>
+  </div>
+  
