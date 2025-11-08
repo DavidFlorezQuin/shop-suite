@@ -1,0 +1,25 @@
+<div class="container">
+    <h2>Ventas</h2>
+    <button mat-raised-button color="primary" (click)="goToCreate()">Nueva venta</button>
+  
+    <table mat-table [dataSource]="sales" class="mat-elevation-z8">
+      <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef>ID</th>
+        <td mat-cell *matCellDef="let s">{{ s.id }}</td>
+      </ng-container>
+  
+      <ng-container matColumnDef="total">
+        <th mat-header-cell *matHeaderCellDef>Total</th>
+        <td mat-cell *matCellDef="let s">{{ s.total | currency }}</td>
+      </ng-container>
+  
+      <ng-container matColumnDef="date">
+        <th mat-header-cell *matHeaderCellDef>Fecha</th>
+        <td mat-cell *matCellDef="let s">{{ s.date | date }}</td>
+      </ng-container>
+  
+      <tr mat-header-row *matHeaderRowDef="['id','total','date']"></tr>
+      <tr mat-row *matRowDef="let row; columns: ['id','total','date']"></tr>
+    </table>
+  </div>
+  

@@ -8,6 +8,16 @@ export const routes: Routes = [
     { path: 'products', component: ProductListComponent },
     { path: 'products/new', component: ProductFormComponent },
     { path: 'products/edit/:id', component: ProductFormComponent },
+    {
+        path: 'sales',
+        loadComponent: () => import('./features/sales/pages/sale-list/sale-list').then(m => m.SaleListComponent)
+      },
+      {
+        path: 'sales/new',
+        loadComponent: () => import('./features/sales/pages/sale-form/sale-form').then(m => m.SaleFormComponent)
+      },
+      
+
     { path: '**', redirectTo: 'login' }
   
 ];

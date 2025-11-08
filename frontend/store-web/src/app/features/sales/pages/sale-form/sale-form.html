@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>Nueva Venta</h2>
+  
+    <div *ngFor="let product of products">
+      <mat-card>
+        <mat-card-title>{{ product.name }}</mat-card-title>
+        <mat-card-content>
+          Precio: {{ product.price | currency }} <br />
+          Stock: {{ product.stock }}
+        </mat-card-content>
+        <mat-form-field>
+          <mat-label>Cantidad</mat-label>
+          <input matInput type="number" min="1" #qty />
+        </mat-form-field>
+        <button mat-raised-button color="primary" (click)="addItem(product.id!, qty.valueAsNumber)">Agregar</button>
+      </mat-card>
+    </div>
+  
+    <mat-divider></mat-divider>
+  
+    <button mat-raised-button color="accent" (click)="createSale()">Registrar Venta</button>
+  </div>
+  
