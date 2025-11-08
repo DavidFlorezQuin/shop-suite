@@ -25,6 +25,7 @@ https://chatgpt.com/share/690fd5ad-33c0-800a-8ea2-21e7f5b44110
 ---
 <img width="1884" height="917" alt="image" src="https://github.com/user-attachments/assets/d496479d-6ffd-42ba-a78b-651b10cf0416" />
 
+[Modulo no completado]
 ### Lista de ventas
 ---
 <img width="1895" height="951" alt="image" src="https://github.com/user-attachments/assets/f9c52050-c90e-44dd-a735-8ab304a07a55" />
