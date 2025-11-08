@@ -1,0 +1,10 @@
+.plain-nav {
+    position: sticky; top: 0; z-index: 1000;
+    display: flex; align-items: center; gap: 16px;
+    padding: 10px 16px; background: #1976d2; color: #fff;
+  }
+  .brand { font-weight: 700; }
+  .links { margin-left: auto; display: flex; gap: 12px; }
+  .links a { color: #fff; text-decoration: none; padding: 6px 10px; border-radius: 6px; }
+  .links a.active { background: rgba(255,255,255,.2); }
+  

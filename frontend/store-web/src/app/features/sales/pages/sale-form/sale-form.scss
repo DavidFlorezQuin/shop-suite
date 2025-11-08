@@ -1,0 +1,59 @@
+.sale-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  
+    .title {
+      text-align: center;
+      font-weight: 600;
+      color: #1976d2;
+      margin-bottom: 10px;
+    }
+  
+    .products-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+  
+    .product-card {
+      padding: 16px;
+      transition: all 0.2s ease-in-out;
+  
+      &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      }
+  
+      .qty-field {
+        width: 100%;
+        margin-top: 10px;
+      }
+  
+      button {
+        width: 100%;
+        margin-top: 12px;
+        font-weight: 500;
+      }
+    }
+  
+    .divider {
+      margin-top: 20px;
+    }
+  
+    .footer-actions {
+      display: flex;
+      justify-content: center;
+  
+      .btn-sale {
+        padding: 12px 40px;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 8px;
+      }
+    }
+  }
+  

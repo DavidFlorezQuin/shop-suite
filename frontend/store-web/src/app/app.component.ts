@@ -1,12 +1,17 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { NavbarComponent } from './shared/navbar/navbar';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrls: ['./app.scss']
+  imports: [RouterOutlet, NavbarComponent],
+  styleUrls: ['./app.scss'],
+  template: `
+  <app-navbar></app-navbar>
+  <router-outlet></router-outlet>
+`
 })
 export class AppComponent {
   title = 'store-web';
