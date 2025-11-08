@@ -1,0 +1,11 @@
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Application\bin\Debug\net9.0\Application.deps.json
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Application\bin\Debug\net9.0\Application.dll
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Application\bin\Debug\net9.0\Application.pdb
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Application\obj\Debug\net9.0\Application.dll
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Application\obj\Debug\net9.0\refint\Application.dll
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Application\obj\Debug\net9.0\Application.pdb
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Application\obj\Debug\net9.0\ref\Application.dll
