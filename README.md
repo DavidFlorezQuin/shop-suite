@@ -1,10 +1,16 @@
 # Shop-suite
 
-[Descripción]
+## [ Descripción ]
+=============
 Repositorio para la prueba de Indigo sobre un sistema que me permita registrar productos y logueo
 
-[Statck usado]
-.NET, Angular 20, JWT
+## [ Statck usado ]
+===============
+- .NET
+- Angular 20
+- JWT
+- SQL Server
+- Entity Framework
 
 ## Login 
 ---
