@@ -146,9 +146,11 @@ C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\bin\Debug\net9
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\bin\Debug\net9.0\Application.dll
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\bin\Debug\net9.0\Domain.dll
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\bin\Debug\net9.0\Infrastructure.dll
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\bin\Debug\net9.0\Infrastructure.pdb
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\bin\Debug\net9.0\Application.pdb
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\bin\Debug\net9.0\Domain.pdb
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\Api.csproj.AssemblyReference.cache
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\Api.GeneratedMSBuildEditorConfig.editorconfig
@@ -157,6 +159,7 @@ C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\Api.csproj.CoreCompileInputs.cache
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\Api.sourcelink.json
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\scopedcss\bundle\Api.styles.css
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\staticwebassets.build.json.cache
@@ -168,4 +171,3 @@ C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\Api.pdb
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\Api.genruntimeconfig.cache
 C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\ref\Api.dll
-C:\Users\DavidMauricioFlorezQ\Documents\prueba-indigo\backend\Api\obj\Debug\net9.0\Api.sourcelink.json
